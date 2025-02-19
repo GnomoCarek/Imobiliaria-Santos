@@ -1,0 +1,151 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+header {
+    background-color: #B0DCFA;
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+    position: relative;
+}
+#logo {
+    width: 140px;
+    height: 140px; 
+}
+nav a {
+    color: #000000;
+    padding: 8px;
+    text-align: center; 
+    font-weight: bold;
+    text-decoration: underline ;
+}
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    margin: 0;
+}
+.Sobre h1 {
+    color: #000000;
+    text-align: center;
+    font-weight: bold;
+}
+.Sobre p {
+    text-align: center;
+    color: #1a81c0;
+    font-size: 1.1rem;
+    margin: 0;
+    padding: 5px;
+}
+.Serviços {
+    background-color: #1a81c0;
+    color: white;
+    height: 500px;
+}
+.Serviços span {
+    color: #ebeb67;
+    font-weight: bold;
+}
+.Serviços p {
+    font-size: 1.1rem;
+    text-decoration: none;
+    padding: 20px;
+    width: 600px;
+    text-align: center;
+    line-height: 2.0;
+}
+.Serviços h1 {
+    text-align: center;
+    color: #ffffff;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+#Casa {
+    width: 1000px;
+    height: 300px;
+}
+#Contrato {
+    width: 400px;
+    height: 300px;
+    padding: 20px;  
+}
+.Contato {
+    background-color: #1a81c0;
+    color: white;
+    height: 600px;
+}
+.Contato h1 {
+    text-align: center;
+    color: #ffffff;
+    padding-top: 10px;
+}
+#Corretores {
+    height: 450px;
+}
+#Corretores h1 {
+    color: #1a81c0;
+    text-align: center;
+}
+#Corretores a{
+    text-decoration: underline #000000;
+    color: #1f3ab6;
+}
+#Corretor {
+    width: 400px;
+    height: 300px;
+    padding: 20px;
+}
+p {
+    font-size: 1rem;
+    text-decoration: none;
+    padding: 20px;
+    width: 1000px;
+    font-weight: bold;
+    align-items: center;
+}
+ul {
+    align-items: center;
+}
+li {
+    align-items: center;
+    padding: 10px;
+    font-weight: bold;
+}
+span {
+    color: #1a81c0;
+    font-weight: bold;
+}
+#final {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font: 1em sans-serif;
+    width: 1000px;
+    font-weight: bold;
+}
+#final span {
+    color: #ebeb67;
+    font-weight: bold;
+}
+button {
+    display: flex;
+    background-color: #ffffff;
+    padding: 0;
+    margin: 5px;
+    border: 1px solid #1a81c0;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #1a81c0;
+    align-items: center;
+    text-decoration: underline;
+    font-weight: bold;
+}
+iframe {
+    width: 700px;
+    height: 300px;
+}
